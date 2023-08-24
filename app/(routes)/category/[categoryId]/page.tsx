@@ -42,7 +42,6 @@ const CategoryPage = async ({ params, searchParams }: CategoryPageProps) => {
             <div className='hidden lg:block'>
               <Filter valueKey='sizeId' name='Sizes' data={sizes} />
               <Filter valueKey='colorId' name='Colors' data={colors} />
-              Mo
             </div>
             <div className='mt-6 lg:col-span-4 lg:mt-0'>
               {products.length === 0 && <NoResults />}
